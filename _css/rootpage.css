@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
+                 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    font-family: Verdana, Arial, sans-serif;  
+    background-color:aqua;
+    
+}
+#header{
+  background-color: beige;
+position: sticky;
+}
+
+#article{
+   background-color:antiquewhite;
+}
+#article p {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: arial; 
+}
+#article h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    font-weight: 700;
+}
+#bottom_side{
+    border-top: 3px solid #ccc;
+}

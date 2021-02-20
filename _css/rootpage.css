@@ -1,36 +1,72 @@
-* {
-    box-sizing: border-box;
-}
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
-                 
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-}
-body{
-    font-family: Verdana, Arial, sans-serif;  
-    background-color:aqua;
-    
-}
-#header{
-  background-color: beige;
-position: sticky;
+body {
+    font-size: 15px; 
+    font-family:monospace;
+    background-color: rgb(245, 255, 250);
 }
 
+  
+#header{
+    font-size:20px;
+    position:fixed; top: 0;   
+    left: 0;   
+    z-index: 9999;   
+    width: 100%;   
+    height: 50px; 
+    background-color: white;
+
+}
+a.nav {
+    margin-top: 15px;
+    display: block;
+    text-decoration: none;
+    color:darkslategrey;
+}
+        
+        
 #article{
-   background-color:antiquewhite;
+    margin-top: 70px;
+    min-height: 820px
 }
 #article p {
-    margin-left: 15%;
-    margin-right: 15%;
-    font-family: arial; 
+    text-indent: 50px;
+    margin-left: 24%;
+    margin-right: 24%;
+    text-align:justify;
+    font-size:20px;
+    color:darkgray;
 }
+      #article  ul, li{
+                margin-left: 12%;
+    text-align:justify;
+    font-size:20px;
+    color:darkgray;
+        }
+        
 #article h1, h2, h3, h4, h5, h6{
+        margin-left: 24%;
+    margin-right: 24%;
     text-align: center;
-    font-weight: 700;
+    /*font-weight: 700;*/
 }
-#bottom_side{
-    border-top: 3px solid #ccc;
+#article h5 {
+    margin-left: 24%;
+    margin-right: 24%;
+    text-align: right;
+}
+        #bottom-side{
+            background-color:rgb(255, 245, 238);
+        }
+        p.bottom-side{
+            margin-left: 72%;
+        }
+#bottom-side h5{
+    text-align: center;
+}
+.hr-two-color {
+	margin: 10px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #000;
 }

@@ -35,14 +35,20 @@ a.nav {
     font-size:20px;
     color:darkgray;
 }
-      #article  ul, li{
-                margin-left: 12%;
+#article img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#article  ul, li{
+list-style: none;
+margin-left: 12%;
+    color:darkgray;
     text-align:justify;
     font-size:20px;
-    color:darkgray;
         }
         
-#article h1, h2, h3, h4, h5, h6{
+#article h1, h2, h3, h4 {
         margin-left: 24%;
     margin-right: 24%;
     text-align: center;
@@ -53,14 +59,15 @@ a.nav {
     margin-right: 24%;
     text-align: right;
 }
-        #bottom-side{
-            background-color:rgb(255, 245, 238);
-        }
-        p.bottom-side{
-            margin-left: 72%;
-        }
+#bottom-side{
+     background-color:rgb(255, 245, 238);
+}
+p.bottom-side{
+     margin-left: 72%;
+}
 #bottom-side h5{
     text-align: center;
+    
 }
 .hr-two-color {
 	margin: 10px 0;
